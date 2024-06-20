@@ -1,3 +1,5 @@
+![image](https://github.com/SeanHardin247/Encrypting-files-with-windows-10/assets/172443627/10e72b0d-de1e-45fe-9328-4bdf08494feb)
+
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
