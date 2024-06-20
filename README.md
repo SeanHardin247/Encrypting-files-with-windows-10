@@ -1,3 +1,14 @@
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+
+<h2>Operating Systems Used </h2>
+
+- Windows 10 pro</b> (21H2)
+
+  <h2>Steps </h2>
+
 - Connect to your Windows 10 virtual machine using remote desktop.
 
 - Click on the file explorer icon on the taskbar.
