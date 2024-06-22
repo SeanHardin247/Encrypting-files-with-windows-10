@@ -1,6 +1,8 @@
 ![image](https://github.com/SeanHardin247/Encrypting-files-with-windows-10/assets/172443627/10e72b0d-de1e-45fe-9328-4bdf08494feb)
 # File encryption with Windows 10 virtual machines
-This is a walkthrough on how to enable file encryption with microsofts built in file encryption service "BitLocker". This walkthrough will assume you already know how to setup a VM in Microsoft Azure and have one at the ready.
+This is a walkthrough on how to enable file encryption with microsofts built in file encryption service "BitLocker". This walkthrough will assume you already know how to setup a VM in Microsoft Azure and have one at the ready. 
+
+File encryption is very important for keeping files safe and out of the hands of people who could use them to harm a buisness if its a work computer, or to harm you if its a personal computer that gets stolen.
 
 <h2>Environments and Technologies Used</h2>
 
@@ -56,6 +58,9 @@ Another window will open; this one is a file explorer window. We can't save this
 
 - Check the option to run a Bitlocker system check, this will prompt you to restart once the encryption process begins. Start the encryption process and restart the computer when given the prompt to do so.
 
+![image](https://github.com/SeanHardin247/Encrypting-files-with-windows-10/assets/172443627/a770bdbf-fbfe-4ac6-8b1c-a54e44482aff)
+
+
 After restarting, you will be kicked out of your remote desktop session. try to log back in.
 
 # Confirming that the files are encrypted
@@ -71,4 +76,6 @@ After restarting, you will be kicked out of your remote desktop session. try to 
 - In Powershell, type "manage-bde -status" and hit enter on the keyboard. A bunch of stuff will pop up, but look for the Percentage Encryption section. If it says 100%, then you are good to go and have completed this tutorial properly!
 
   ![image](https://github.com/SeanHardin247/Encrypting-files-with-windows-10/assets/172443627/e93f2d39-e297-46f9-9edd-5630283f0e69)
+
+   
 
